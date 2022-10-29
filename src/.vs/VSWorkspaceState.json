@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\core",
+    "\\app\\features",
+    "\\app\\features\\quiz",
+    "\\app\\features\\quiz\\components\\question",
+    "\\app\\features\\quiz\\pages",
+    "\\app\\features\\quiz\\pages\\quiz",
+    "\\app\\features\\quiz\\pages\\quizzes",
+    "\\app\\features\\quiz\\pages\\score"
+  ],
+  "SelectedNode": "\\app\\core\\core.module.ts",
+  "PreviewInSolutionExplorer": false
+}

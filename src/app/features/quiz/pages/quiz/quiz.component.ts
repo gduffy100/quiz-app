@@ -1,4 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Subscription } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Quiz } from '../../../../data/models/quiz';
+import QuizService from '../../../../data/services/quiz.service';
+import { UserAnswer } from '../../../../data/models/user-answer';
 
 @Component({
   selector: 'app-quiz',

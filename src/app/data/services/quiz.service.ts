@@ -1,4 +1,9 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { environment } from '../../../environments/environment';
+import { Quiz } from '../models/quiz';
+import { Score } from '../models/score';
+import { UserAnswer } from '../models/user-answer';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +15,7 @@ export class QuizService {
   constructor() { }
 }*/
 
-export class QuizService {
+export default class QuizService {
       private url = `${environment.strapiUrl}/quizzes`;
     
       constructor(private http: HttpClient) { }

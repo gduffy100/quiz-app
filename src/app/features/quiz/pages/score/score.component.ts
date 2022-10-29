@@ -1,4 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { iif, Observable } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
+import { Score } from '../../../../data/models/score';
+import { UserAnswer } from '../../../../data/models/user-answer';
+import QuizService from '../../../../data/services/quiz.service';
+
 
 @Component({
   selector: 'app-score',
